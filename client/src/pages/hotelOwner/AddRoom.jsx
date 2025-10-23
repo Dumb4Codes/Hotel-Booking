@@ -134,7 +134,7 @@ const AddRoom = () => {
               <option value="Single Bed">Single Bed</option>
               <option value="Double Bed">Double Bed</option>
               <option value="Luxury Room">Luxury Room</option>
-              <option value="c Suit">Luxury Room</option>
+              <option value="Family Suite">Family Suite</option>
             </select>
           </div>
           <div className="mt-4 text-gray-800">

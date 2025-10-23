@@ -43,11 +43,13 @@ const AddRoom = () => {
       const formData = new FormData();
       formData.append("roomType", inputs.roomType);
       formData.append("pricePerNight", inputs.pricePerNight);
+
       // converting Amenities to array & keeping only enabled Amenities
       const amenities = Object.keys(inputs.amenities).filter(
         (key) => inputs.amenities[key]
       );
       formData.append("amenities", JSON.stringify(amenities));
+      
       // Adding images to form data
       Object.keys(images).forEach((key) => {
         images[key] && formData.append("images", images[key]);

@@ -173,6 +173,7 @@ const AllRooms = () => {
                 <img src={assets.locationIcon} alt="location-icon" />
                 <span>{room.hotel.address}</span>
               </div>
+
               {/* Room Eminities */}
               <div className="flex flex-wrap items-center mt-3 mb-6 gap-4">
                 {room.amenities.map((item, index) => (
@@ -200,6 +201,7 @@ const AllRooms = () => {
           </div>
         ))}
       </div>
+      
       {/* Filters */}
       <div className="bg-white w-80 border border-gray-300 text-gray-600 max-lg:mb-8 min-lg:mt-16">
         <div

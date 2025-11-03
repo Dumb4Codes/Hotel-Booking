@@ -109,7 +109,7 @@ const Navbar = () => {
           alt="search_icon"
           className={`${
             isScrolled && "invert"
-          } h-7 transition-all duration-500`}
+          } h-7 transition-all duration-500 cursor-pointer`}
         />
 
         {user ? (
@@ -124,7 +124,7 @@ const Navbar = () => {
           </UserButton>
         ) : (
           <button
-            className="bg-black text-white px-8 py-2.5 rounded-full ml-4 transition-all duration-500"
+            className="bg-black cursor-pointer text-white px-8 py-2.5 rounded-full ml-4 transition-all duration-500"
             onClick={openSignIn}
           >
             Login

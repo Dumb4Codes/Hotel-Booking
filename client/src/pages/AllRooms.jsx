@@ -100,8 +100,8 @@ const AllRooms = () => {
     }
     return 0;
   };
-  // Filter destination
 
+  // Filter destination
   const filterDestination = (room) => {
     const destination = searchParams.get("destination");
     if (!destination) return true;
@@ -201,7 +201,7 @@ const AllRooms = () => {
           </div>
         ))}
       </div>
-      
+
       {/* Filters */}
       <div className="bg-white w-80 border border-gray-300 text-gray-600 max-lg:mb-8 min-lg:mt-16">
         <div
